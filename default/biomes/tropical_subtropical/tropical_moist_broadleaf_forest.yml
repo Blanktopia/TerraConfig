@@ -16,6 +16,7 @@ palette:
   - BEDROCK_MOST: 1
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
   - TROPICAL_CLIFF: 255
 
 # structures:
@@ -24,6 +25,19 @@ palette:
 
 
 trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 10
+    items:
+      - CAVE_VINES: 1
+    y:
+      min: 10
+      max: 57
   - density: 3
     items:
       - JUNGLE_CANOPY: 1
