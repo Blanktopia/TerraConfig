@@ -98,7 +98,7 @@ flora:
       - POPPY: 1
       - CRIMSON_ROOTS: 1
       - WARPED_ROOTS: 1
-  - density: 1
+  - density: 4
     y:
       min: 10
       max: 56
