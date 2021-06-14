@@ -38,6 +38,8 @@ flora:
       - GRASS: 750
       - ROSE_BUSH: 4
       - LILAC: 4
+      - CRIMSON_ROOTS: 2
+      - WARPED_ROOTS: 2
   - density: 12
     items:
       - CEILING_LEAVES: 2
