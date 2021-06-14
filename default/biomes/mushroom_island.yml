@@ -46,6 +46,16 @@ flora:
     items:
       - RED_MUSHROOM: 1
       - BROWN_MUSHROOM: 2
+      - CRIMSON_ROOTS: 2
+      - WARPED_ROOTS: 2
+
+trees:
+  - density: 2
+    items:
+      MUSHROOMISLE: 2
+    y:
+      min: 63
+      max: 180
 
 
 # Carving and ores covered by super biome
