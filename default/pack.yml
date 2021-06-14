@@ -156,8 +156,9 @@ biomes:
           type: REPLACE
           from: "BIOME:WARM_OCEAN_DEEP"
           to:
-            - "WARM_OCEAN_DEEP": 1
+            - "WARM_OCEAN_DEEP": 2
             - "LUKEWARM_OCEAN_DEEP": 8
+            - "TROPICAL_ROCKY_ISLANDS": 2
           noise:
             type: WhiteNoise
             salt: 21
@@ -200,6 +201,7 @@ biomes:
             - DESERT: 3
             - SAVANNA: 2
             - ARID_MOUNTAINS: 1
+            - TROPICAL_DRY_BROADLEAF_FOREST: 1
           noise: *biome-distribute
       - mutate: # Wet warm biomes
           type: REPLACE
@@ -209,6 +211,8 @@ biomes:
             - MOUNTAINS_JUNGLE: 2
             - ROCKY_TALL_FOREST: 2
             - SWAMP: 2
+            - MANGROVE: 2
+            - TROPICAL_MOIST_BROADLEAF_FOREST: 2
           noise: *biome-distribute
       - mutate: # Distribution of neutral temperature biomes.
           type: REPLACE
@@ -231,7 +235,7 @@ biomes:
             - SNOWY_TAIGA: 8
             - MOUNTAINS_STONE: 8
             - TUNDRA: 6
-            - YELLOWSTONE: 1
+            - YELLOWSTONE: 3
           noise: *biome-distribute
       - expand:
           type: FRACTAL
@@ -344,6 +348,12 @@ biomes:
             MOUNTAINS_PRETTY:
               - SELF: 1
               - RIVER_M_P: 1
+            TROPICAL_DRY_BROADLEAF_FOREST:
+              - SELF: 1
+              - TROPICAL_RIVER: 1
+            TROPICAL_MOIST_BROADLEAF_FOREST:
+              - SELF: 1
+              - TROPICAL_RIVER: 1
             SKY_ISLANDS:
               - SELF: 1
               - RIVER_SKY_ISLANDS: 1
