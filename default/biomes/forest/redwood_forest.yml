@@ -1,0 +1,57 @@
+extends: "FOREST_ABSTRACT"
+id: "REDWOOD_FOREST"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - TAIGA: 255
+vanilla: FOREST
+
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 45
+    y:
+      min: 62
+      max: 84
+    items:
+      - SMALL_ROCK: 4
+      - FERN: 100
+      - TALL_GRASS: 100
+      - GRASS: 750
+      - POPPY: 50
+      - ROSE_BUSH: 2
+      - LILAC: 2
+      - CRIMSON_ROOTS: 2
+      - WARPED_ROOTS: 2
+      - LEAVES: 100
+      - SWEET_BERRIES: 2
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 1
+    items:
+      - REDWOOD: 1
+    y:
+      min: 48
+      max: 240
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

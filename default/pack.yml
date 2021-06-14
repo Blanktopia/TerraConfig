@@ -220,6 +220,7 @@ biomes:
           to:
             - FOREST: 20
             - BIRCH_FOREST: 8
+            - REDWOOD_FOREST: 6
             - PLAINS: 24
             - SKY_ISLANDS: 1
             - DARK_FOREST: 8
