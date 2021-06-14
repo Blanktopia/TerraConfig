@@ -26,6 +26,12 @@ trees:
       max: 49
   - density: 10
     items:
+      - CAVE_VINES: 1
+    y:
+      min: 10
+      max: 57
+  - density: 10
+    items:
       - JUNGLE_BUSH: 16
       - SMALL_JUNGLE: 12
       - JUNGLE: 16
@@ -68,7 +74,7 @@ flora:
       - VINES_TALL: 1
       - STALACTITE: 1
       - STALAGMITE: 1
-      - SHROOMLIGHT: 2
+      - SHROOMLIGHT: 1
     y:
       min: 15
       max: 62
@@ -86,7 +92,7 @@ flora:
       - VINES: 2
       - VINES_TALL: 1
       - STALACTITE: 1
-      - SHROOMLIGHT: 2
+      - SHROOMLIGHT: 1
     y:
       min: 63
       max: 96
