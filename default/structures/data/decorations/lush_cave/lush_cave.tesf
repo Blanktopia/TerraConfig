@@ -1,0 +1,5 @@
+id "lush_cave";
+
+num radius = randomInt(3)+4;
+
+num r2 = radius*radius; // radius squared
