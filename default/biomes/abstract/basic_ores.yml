@@ -2,7 +2,7 @@
 
 id: "BASIC_ORES"
 abstract: true
-
+extends: CARVING
 
 carving:
   CAVE: 50
