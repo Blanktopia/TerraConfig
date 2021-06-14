@@ -29,3 +29,9 @@ flora:
     y:
       min: 62
       max: 180
+ores:
+  EMERALD_ORE:
+    min: 3
+    max: 8
+    min-height: 4
+    max-height: 31
