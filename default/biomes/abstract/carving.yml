@@ -4,8 +4,15 @@ abstract: true
 beta:
   carving:
     # equation: |
-    #   -(|simplex3(x, y, z)| + |simplex3(x, y + 1024, z)| - 0.15)
-    #   * spaghettiStrength
+      
+    #   -carvingThreshold
+    #   +(
+    #     min(carvingMax,
+    #       -(|simplex3(x, y, z)| + |simplex3(x, y + 1024, z)| - 0.15 - carvingThreshold)
+    #       * spaghettiStrength
+    #     )
+    #   )
+    #   * sigmoidClamp(y, carvingMinHeight, carvingMaxHeight, carvingClampTaper)
 
     equation: | # If positive, carve area
       -carvingThreshold
@@ -15,24 +22,19 @@ beta:
         //   Assumes a range of [0, carvingMax]
         // -----------------------------------------------------------
         min(carvingMax,
-        
-          // Cheese caves - assumes a range of [0, cheeseStrength]
-          (simplex3(
-            x * cheeseHorizontalFrequency,
-            step(y + simplex2(x, z) * 5, 34, 0, 0) * cheeseVerticalFrequency,
-            z * cheeseHorizontalFrequency
-          )+1)/2 // Linear redistribute
-          * cheeseStrength
+          max(
+            // Cheese caves - assumes a range of [0, cheeseStrength]
+            (simplex3(
+              x * cheeseHorizontalFrequency,
+              step(y + simplex2(x, z) * 5, 34, 0, 0) * cheeseVerticalFrequency,
+              z * cheeseHorizontalFrequency
+            )+1)/2 // Linear redistribute
+            * cheeseStrength,
 
-          // Spaghetti caves WIP - assumes a range of [0, cheeseStrength]
-          //+sigmoidClamp(
-          //  simplex3(
-          //    x / 5,
-          //    y / 5,
-          //    z / 5
-          //  ),
-          //  -0.1, 0.1, 1
-          //)
+            // Spaghetti yum yum
+            -(|simplex3(x, y, z)| + |simplex3(x, y + 1024, z)| - 0.15 - carvingThreshold)
+            * spaghettiStrength
+          )
         )
         // Pillars ---------------------------------------------------
         //   Subtracts from base carving to produce pillars
