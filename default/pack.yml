@@ -274,6 +274,7 @@ biomes:
           from: "BIOME:PLAINS"
           to:
             - FOREST: 20
+            - SAKURA_FOREST: 6
             - BIRCH_FOREST: 8
             - REDWOOD_FOREST: 6
             - PLAINS: 24
