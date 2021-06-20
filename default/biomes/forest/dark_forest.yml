@@ -11,10 +11,46 @@ palette:
   - GRASSY: 255
 vanilla: DARK_FOREST
 
-trees:
-  - density: 0.825
+flora:
+  - density: 4
+    y:
+      min: 10
+      max: 56
     items:
-      - DRIPSTONE: 9
+      - GLOW_LICHEN: 1
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 750
+      - ROSE_BUSH: 4
+      - LILAC: 4
+      - CRIMSON_ROOTS: 2
+      - WARPED_ROOTS: 2
+  - density: 20
+    items:
+      - CEILING_LEAVES: 4
+      - VINES: 4
+      - VINES_TALL: 2
+      - STALACTITE: 2
+      - STALAGMITE: 2
+      - SHROOMLIGHT: 1
+    y:
+      min: 15
+      max: 62
+  - density: 5
+    items:
+      - STALACTITE: 1
+      - STALAGMITE: 2
+    y:
+      min: 8
+      max: 14
+trees:
+  - density: 0.3
+    items:
+      - DRIPSTONE: 2
       - GEODE: 1
       - LUSH_CAVE: 1
     y:

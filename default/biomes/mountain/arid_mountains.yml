@@ -6,7 +6,9 @@ elevation:
   interpolation: true
 color: 0xa79d64
 id: "ARID_MOUNTAINS"
-extends: "BASIC_ORES"
+extends: 
+  - "BASIC_ORES"
+  - "CARVING"
 
 palette:
   - "BLOCK:minecraft:bedrock": 0
@@ -47,9 +49,9 @@ flora:
       - DEAD_BUSH: 5
 
 trees:
-  - density: 0.75
+  - density: 0.225
     items:
-      - DRIPSTONE: 9
+      - DRIPSTONE: 2
       - GEODE: 1
     y:
       min: 48

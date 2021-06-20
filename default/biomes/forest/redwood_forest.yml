@@ -37,9 +37,9 @@ flora:
       - SWEET_BERRIES: 2
 
 trees:
-  - density: 0.825
+  - density: 0.3
     items:
-      - DRIPSTONE: 9
+      - DRIPSTONE: 2
       - GEODE: 1
       - LUSH_CAVE: 1
     y:

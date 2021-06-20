@@ -1,5 +1,7 @@
 id: "TROPICAL_ROCKY_ISLANDS"
-extends: "BASIC_ORES"
+extends: 
+  - "BASIC_ORES"
+  - "CARVING"
 vanilla: BEACH
 
 tags:
@@ -34,9 +36,9 @@ palette:
   - TROPICAL_CLIFF: 255
 
 trees:
-  - density: 0.825
+  - density: 0.3
     items:
-      - DRIPSTONE: 9
+      - DRIPSTONE: 2
       - GEODE: 1
       - LUSH_CAVE: 1
     y:

@@ -277,7 +277,6 @@ biomes:
             - BIRCH_FOREST: 8
             - REDWOOD_FOREST: 6
             - PLAINS: 24
-            - SKY_ISLANDS: 1
             - DARK_FOREST: 8
             - SUNFLOWER_PLAINS: 6
             - CRAG: 4
@@ -410,9 +409,6 @@ biomes:
             TROPICAL_MOIST_BROADLEAF_FOREST:
               - SELF: 1
               - TROPICAL_RIVER: 1
-            SKY_ISLANDS:
-              - SELF: 1
-              - RIVER_SKY_ISLANDS: 1
           default-from: "RIVER_ERODE"
           default-to:
             - SELF: 1

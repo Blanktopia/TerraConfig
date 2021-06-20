@@ -3,17 +3,6 @@ abstract: true
 
 beta:
   carving:
-    # equation: |
-      
-    #   -carvingThreshold
-    #   +(
-    #     min(carvingMax,
-    #       -(|simplex3(x, y, z)| + |simplex3(x, y + 1024, z)| - 0.15 - carvingThreshold)
-    #       * spaghettiStrength
-    #     )
-    #   )
-    #   * sigmoidClamp(y, carvingMinHeight, carvingMaxHeight, carvingClampTaper)
-
     equation: | # If positive, carve area
       -carvingThreshold
       +(

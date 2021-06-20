@@ -47,9 +47,9 @@ flora:
       - WHITE_TULIP: 1
       - PINK_TULIP: 1
 trees:
-  - density: 0.825
+  - density: 0.3
     items:
-      - DRIPSTONE: 9
+      - DRIPSTONE: 2
       - GEODE: 1
       - LUSH_CAVE: 1
     y:

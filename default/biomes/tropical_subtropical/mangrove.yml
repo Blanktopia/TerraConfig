@@ -1,5 +1,7 @@
 id: "MANGROVE"
-extends: "BASIC_ORES"
+extends: 
+  - "BASIC_ORES"
+  - "CARVING"
 vanilla: BEACH
 
 tags:
