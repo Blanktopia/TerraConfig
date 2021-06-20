@@ -291,7 +291,7 @@ biomes:
             - SNOWY_TAIGA: 8
             - MOUNTAINS_STONE: 8
             - TUNDRA: 6
-            - YELLOWSTONE: 3
+            - YELLOWSTONE: 4
           noise: *biome-distribute
       - expand:
           type: FRACTAL
