@@ -1,7 +1,7 @@
 id "dripstone_cluster";
 
-num width = randomInt(6)+4;
-num height = randomInt(10)+10;
+num width = randomInt(3)+randomInt(3)+4;
+num height = randomInt(6)+8;
 
 num r2 = 3.1415 * width * 2;
 

@@ -1,6 +1,6 @@
 id "lush_cave";
 
-num width = randomInt(30)+30;
+num width = randomInt(6)+8;
 
 num height = 1;
 while(getBlock(0, height, 0) == "minecraft:air") {

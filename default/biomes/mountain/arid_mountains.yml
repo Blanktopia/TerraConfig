@@ -49,6 +49,12 @@ flora:
       - DEAD_BUSH: 5
 
 trees:
+  - density: 0.06
+    items:
+      - DEEP_DARK: 1
+    y:
+      min: 24
+      max: 25
   - density: 0.225
     items:
       - DRIPSTONE: 2
