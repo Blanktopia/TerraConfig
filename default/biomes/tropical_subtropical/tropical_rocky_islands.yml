@@ -77,7 +77,7 @@ flora:
       - GRASS: 1
       - TALL_GRASS: 1
       - DEAD_BUSH: 1
-  - density: 4
+  - density: 2
     y:
       min: 10
       max: 56

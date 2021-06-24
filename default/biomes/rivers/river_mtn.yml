@@ -22,7 +22,7 @@ blend:
 ocean:
   palette: FROZEN_OCEAN
 flora:
-  - density: 4
+  - density: 2
     y:
       min: 10
       max: 56

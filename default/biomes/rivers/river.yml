@@ -24,7 +24,7 @@ palette:
   - GRASSY: 255
 vanilla: RIVER
 flora:
-  - density: 4
+  - density: 2
     y:
       min: 10
       max: 56
