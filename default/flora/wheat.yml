@@ -1,0 +1,15 @@
+layers:
+  - materials:
+      - "minecraft:wheat[age=4]": 1
+      - "minecraft:wheat[age=5]": 1
+      - "minecraft:wheat[age=6]": 1
+      - "minecraft:wheat[age=7]": 1
+    layers: 1
+
+id: "WHEAT"
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:coarse_dirt"
+  - "minecraft:dirt"
+replaceable:
+  - "minecraft:air"

@@ -47,6 +47,9 @@ flora:
       - ORANGE_TULIP: 1
       - WHITE_TULIP: 1
       - PINK_TULIP: 1
+      - WHEAT: 10
+      - POTATOES: 5
+      - BEETROOTS: 5
 
 trees:
   - density: 0.06

@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:beetroots[age=1]": 1
+      - "minecraft:beetroots[age=2]": 1
+      - "minecraft:beetroots[age=3]": 1
+    layers: 1
+
+id: "BEETROOTS"
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:coarse_dirt"
+  - "minecraft:dirt"
+replaceable:
+  - "minecraft:air"
