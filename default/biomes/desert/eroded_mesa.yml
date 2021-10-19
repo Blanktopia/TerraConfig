@@ -20,10 +20,10 @@ tags:
   - "DRY"
 slant:
   palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - BEDROCK_MOST: 2
-    - BEDROCK_HALF: 4
-    - BEDROCK_LITTLE: 5
+    - "BLOCK:minecraft:bedrock": -64
+    - BEDROCK_MOST: -62
+    - BEDROCK_HALF: -61
+    - BEDROCK_LITTLE: -60
     - "BLOCK:minecraft:terracotta": 255
     - "BLOCK:minecraft:gray_terracotta": 124
     - "BLOCK:minecraft:cyan_terracotta": 121
@@ -63,10 +63,10 @@ slant:
   threshold: 0.15
 
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 2
-  - BEDROCK_HALF: 4
-  - BEDROCK_LITTLE: 5
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - DEEPSLATE: 20
   - RED_DESERT: 255
 vanilla: ERODED_BADLANDS

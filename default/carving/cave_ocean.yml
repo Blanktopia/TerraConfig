@@ -15,9 +15,9 @@ palette:
       - materials: { "minecraft:water": 1 }
         y: 62
       - materials: { "minecraft:lava": 1 }
-        y: 7
+        y: -56
       - materials: { "minecraft:obsidian": 19, "minecraft:magma_block": 1 }
-        y: 8
+        y: -55
   outer:
     replace-blacklist: false
     replace:

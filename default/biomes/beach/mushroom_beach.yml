@@ -3,10 +3,10 @@ id: "MUSHROOM_BEACH"
 vanilla: MUSHROOM_FIELD_SHORE
 color: 0xa000ff
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 1
-  - BEDROCK_HALF: 2
-  - BEDROCK_LITTLE: 3
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - DEEPSLATE: 20
   - SANDY: 62
   - MYCELIUM_SHORE: 64

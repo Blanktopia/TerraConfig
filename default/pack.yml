@@ -148,19 +148,21 @@ noise:
 variables:
   base: 63
 
+  minHeight: -64
+
   carvingThreshold: 0.5 # Higher = less carving
-  carvingMinHeight: 20
-  carvingMaxHeight: 60
-  carvingClampTaper: 3
-  carvingMax: 1 # Caps the amount of base carving
+  carvingMinHeight: -30
+  carvingMaxHeight: 65
+  carvingClampTaper: 2
+  carvingMax: 0.7 # Caps the amount of base carving
 
   cheeseStrength: 1
   cheeseHorizontalFrequency: 1.5
   cheeseVerticalFrequency: 3
 
-  spaghettiStrength: 1.3
+  spaghettiStrength: 1.6
 
-  pillarStrength: 0.8
+  pillarStrength: 0.5
 
 biomes:
   type: PIPELINE

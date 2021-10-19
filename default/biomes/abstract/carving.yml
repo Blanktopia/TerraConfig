@@ -15,7 +15,7 @@ beta:
             // Cheese caves - assumes a range of [0, cheeseStrength]
             (simplex3(
               x * cheeseHorizontalFrequency,
-              step(y + simplex2(x, z) * 5, 34, 0, 0) * cheeseVerticalFrequency,
+              step(|y| + simplex2(x, z) * 5, 34, 0, 0) * cheeseVerticalFrequency,
               z * cheeseHorizontalFrequency
             )+1)/2 // Linear redistribute
             * cheeseStrength,
@@ -38,4 +38,4 @@ beta:
       // Carving mask ------------------------------------------------
       //   Multiplies everything by a mask
       // -------------------------------------------------------------
-      * sigmoidClamp(y, carvingMinHeight, carvingMaxHeight, carvingClampTaper)
+      * sigmoidClamp(|y|, carvingMinHeight, carvingMaxHeight, carvingClampTaper)

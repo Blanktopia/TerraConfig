@@ -11,10 +11,10 @@ extends:
   - "CARVING"
 
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 1
-  - BEDROCK_HALF: 2
-  - BEDROCK_LITTLE: 3
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - DEEPSLATE: 20
   - ARID: 255
 vanilla: SAVANNA
@@ -25,10 +25,10 @@ tags:
   - "DRY"
 slant:
   palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - BEDROCK_MOST: 1
-    - BEDROCK_HALF: 2
-    - BEDROCK_LITTLE: 3
+    - "BLOCK:minecraft:bedrock": -64
+    - BEDROCK_MOST: -62
+    - BEDROCK_HALF: -61
+    - BEDROCK_LITTLE: -60
     - ARID_SIDE: 255
   threshold: 0.1
 

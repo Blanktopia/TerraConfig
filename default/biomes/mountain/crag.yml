@@ -8,20 +8,20 @@ id: "CRAG"
 erode: CRAG
 slant:
   palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - BEDROCK_MOST: 1
-    - BEDROCK_HALF: 2
-    - BEDROCK_LITTLE: 3
+    - "BLOCK:minecraft:bedrock": -64
+    - BEDROCK_MOST: -62
+    - BEDROCK_HALF: -61
+    - BEDROCK_LITTLE: -60
     - "STONE_SIDE": 255
     - "GRASSY_STONE": 62
   threshold: 0.1
 tags:
   - "LAND"
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 1
-  - BEDROCK_HALF: 2
-  - BEDROCK_LITTLE: 3
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - DEEPSLATE: 20
   - GRASSY: 81
   - GRASSY_STONE: 255

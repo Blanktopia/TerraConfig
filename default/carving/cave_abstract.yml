@@ -16,7 +16,7 @@ start:
     y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*5)"
     z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*5)"
   height:
-    min: 6
+    min: -57
     max: 58
 cut:
   top: 0

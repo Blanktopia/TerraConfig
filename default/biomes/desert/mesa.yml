@@ -19,10 +19,10 @@ tags:
 slant:
   threshold: 0.15
   palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - BEDROCK_MOST: 1
-    - BEDROCK_HALF: 2
-    - BEDROCK_LITTLE: 3
+    - "BLOCK:minecraft:bedrock": -64
+    - BEDROCK_MOST: -62
+    - BEDROCK_HALF: -61
+    - BEDROCK_LITTLE: -60
     - "BLOCK:minecraft:terracotta": 255
     - "BLOCK:minecraft:gray_terracotta": 124
     - "BLOCK:minecraft:cyan_terracotta": 121
@@ -61,10 +61,10 @@ slant:
     - "RED_DESERT": 64
 
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 1
-  - BEDROCK_HALF: 2
-  - BEDROCK_LITTLE: 3
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - DEEPSLATE: 20
   - RED_DESERT: 255
 vanilla: BADLANDS

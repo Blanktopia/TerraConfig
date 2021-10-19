@@ -5,10 +5,10 @@ prevent-smooth: true
 ocean:
   palette: FROZEN_OCEAN
 palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - BEDROCK_MOST: 2
-  - BEDROCK_HALF: 4
-  - BEDROCK_LITTLE: 5
+  - "BLOCK:minecraft:bedrock": -64
+  - BEDROCK_MOST: -62
+  - BEDROCK_HALF: -61
+  - BEDROCK_LITTLE: -60
   - RIVER_BOTTOM: 61
   - RIVER_SHORE: 62
   - MOUNTAIN_SNOW: 255
@@ -18,10 +18,10 @@ palette:
   #- MOUNTAIN_GRASS: 84
 slant:
   palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - BEDROCK_MOST: 2
-    - BEDROCK_HALF: 4
-    - BEDROCK_LITTLE: 5
+    - "BLOCK:minecraft:bedrock": -64
+    - BEDROCK_MOST: -62
+    - BEDROCK_HALF: -61
+    - BEDROCK_LITTLE: -60
     - MOUNTAIN_STONE: 255
   threshold: 0.22
 vanilla: MOUNTAINS
